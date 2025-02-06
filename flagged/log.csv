@@ -1,0 +1,2 @@
+Input Image,Classification,Face with Explainability,flag,username,timestamp
+flagged\Input Image\d43c0f30408cb977031b\Create-a-l-magic-ujnk.jpeg,"{""label"": ""real"", ""confidences"": [{""label"": ""real"", ""confidence"": 0.6494023203849792}, {""label"": ""fake"", ""confidence"": 0.35059767961502075}]}",flagged\Face with Explainability\2f61c5252df5ce222919\image.webp,,,2024-09-10 15:41:20.895841

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gradio Interface with Feedback Button</title>
+  <!-- Include Gradio CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gradio/dist/css/gradio.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gradio Interface</h1>
+    <!-- Your Gradio Interface Here -->
+    <div id="gradio_interface"></div>
+    <!-- Feedback Button -->
+    <button onclick="openFeedbackPage()">Give Feedback</button>
+  </div>
+  
+  <!-- Include Gradio JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/gradio/dist/js/gradio.min.js"></script>
+  <script>
+    // Function to open feedback page
+    function openFeedbackPage() {
+      // Replace 'feedback_page_url' with the URL of your feedback page
+      window.open('feedback_page_url', '_blank');
+    }
+    
+    // Your Gradio interface code here
+    gr.Interface({ /* Your Gradio interface configuration */ }, function(response) {
+      console.log(response); // Handle response here
+    }, 'gradio_interface').launch();
+  </script>
+</body>
+</html>

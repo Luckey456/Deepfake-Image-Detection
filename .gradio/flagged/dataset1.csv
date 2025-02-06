@@ -1,0 +1,3 @@
+Input Image,Classification,Input Image,timestamp
+.gradio\flagged\Input Image\dbac82ca9ea931d64124\png,"{""label"": ""real"", ""confidences"": [{""label"": ""real"", ""confidence"": 0.7975367307662964}, {""label"": ""fake"", ""confidence"": 0.20246323943138123}]}",.gradio\flagged\Input Image\66282dccacb58c1f0239\image.webp,2025-02-01 21:18:24.098419
+.gradio\flagged\Input Image\76eb3288c4e8790c1f22\png,"{""label"": ""real"", ""confidences"": [{""label"": ""real"", ""confidence"": 0.7975367307662964}, {""label"": ""fake"", ""confidence"": 0.20246323943138123}]}",.gradio\flagged\Input Image\158920437b539ba2b689\image.webp,2025-02-01 21:18:26.743565
